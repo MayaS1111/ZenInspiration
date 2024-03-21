@@ -1,19 +1,20 @@
 .page_body{
-  margin: 0px
+  margin: 0px;
+  background-color: rgb(201, 197, 197);
 }
 
 .btn {
   font-size: 20px;
   text-decoration: none;
   color: black;
+  border-radius: 10px;
   padding: 0.5rem;
-  border: 1px solid #333333;
+  border: 2px solid #333333;
 }
 
 nav {
   font-size: 30px;
   display: flex;
-  justify-content: center;
   padding-bottom: 10px;
   background-color: rgb(79, 167, 248);
   border-bottom: 3px dotted black;
@@ -27,15 +28,46 @@ nav a{
 }
 
 #logo_link{
-  /*padding: 0px 630px 0px 0px;*/
+  display: flex;
+  justify-content: left;
 }
 
-#home_link, #quote_link{
+.nav_links{
   display: flex;
   justify-content: right;
 }
 
-div .quote_box{
+.quote_box{
   border: 3px solid black;
-  border-color: ;
+  margin: 200px auto 50px;
+  max-width: 1000px;
+  border-radius: 20px;
+  background-color: rgb(201, 197, 197);
+}
+
+#author{
+  text-align: right;
+  padding-right: 10%;
+  margin-top: 0px;
+}
+
+#quotepage_buttom1{
+  margin-right: 10px;
+}
+
+.button_div{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 1000px;
+}
+
+#quote{
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+#quotepage_buttom2{
+  margin-left: 10px;
 }

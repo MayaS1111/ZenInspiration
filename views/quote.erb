@@ -6,10 +6,12 @@
   </header>
   <body>
     <div class="quote_box">
-      <h2>"Quote"</h2>
-      <h3>-author</h3>
+      <h2 id="quote"><%=@quote%></h2>
+      <h3 id="author">-<%=@author%></h3>
     </div>
-    <a class="btn" href="/">Back To Home</a>
-    <a class="btn" href="/quote">Get Another Quote</a>
+    <div class="button_div">
+      <a class="btn" id="quotepage_buttom1" href="/">Back To Home</a>
+      <a class="btn" id="quotepage_buttom2" href="/quote">Get Another Quote</a>
+    </div>  
   </body>
 </html>

@@ -10,11 +10,13 @@
 
   <body class="page_body">
     <nav class="nav"> 
-      <a href="/" id="logo_link">ZenMotivation</a>
-      <div id="space">
+      <div class="nav_logo">
+        <a href="/" id="logo_link">ZenMotivation</a>
       </div>
-      <a href="/" id="home_link">Home</a>
-      <a href="/quote" id="quote_link">Get Quote</a>
+      <div class="nav_links">
+        <a href="/" id="home_link">Home</a>
+        <a href="/quote" id="quote_link">Get Quote</a>
+      </div>
     </nav>
     <%= yield %>
   </body>
