@@ -1,18 +1,5 @@
-# sinatra-template
+Need a good quote to get you inspired? Sounds like you need some Zen Inspiration!
 
-Use this repository to create new Sinatra apps. 
-
-Optionally, to use `ActiveRecord` for database operations, add to the `app.rb`:
-
-```ruby
-require "sinatra/activerecord"
-```
-
-And in the `config/environment.rb` file add this code block:
-
-```ruby
-configure do
-  # setup a database connection
-  set(:database, { adapter: "sqlite3", database: "db/development.sqlite3" })
-end
-```
+-Run "bin/server" to start site the go to running port.
+-Click the "Get random quote" button to display a inspirational quote
+  and its author.
