@@ -1,10 +1,11 @@
 .page_body{
   margin: 0px;
   background-color: rgb(201, 197, 197);
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 .btn {
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: none;
   color: black;
   border-radius: 10px;
@@ -27,14 +28,53 @@ nav a{
   padding: 0px 10px 10px;
 }
 
+h2{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 25px;
+}
+
 #logo_link{
+  font-family:fantasy;
+  font-size: 50px;
+  margin-right: 20px;
+  padding-top: 20px;
   display: flex;
   justify-content: left;
 }
 
 .nav_links{
+  font-size: 30px;
+  padding-top: 10px;
+}
+.nav_links a{
+  display:flex;
+  justify-content: left;
+}
+
+#home_link{
+  margin-right: 30px;
+}
+
+#welcome_message{
+  font-size: 50px;
+  text-align: center;
+  margin: 100px auto 20px;
+}
+
+#page_message{
+  font-size: 25px;
+  text-align: center;
+  margin: 10px auto 70px;
+}
+
+#home_quote_btn{
+  margin: 50px auto 50px;
   display: flex;
-  justify-content: right;
+  justify-content: center;
+  width: 250px;
 }
 
 .quote_box{
