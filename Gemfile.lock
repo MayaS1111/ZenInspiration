@@ -167,6 +167,7 @@ DEPENDENCIES
   i18n
   pry
   puma (~> 5.0)
+  rack
   rspec
   rspec-html-matchers
   sinatra
