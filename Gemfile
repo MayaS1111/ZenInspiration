@@ -7,6 +7,7 @@ gem "sinatra"
 gem "sinatra-contrib"
 gem "rack"
 gem "rackup"
+gem "http"
 
 # Use Puma as the app server
 gem "puma", "~> 5.0"
